@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 40px;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input, button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+}
+
+form button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ul {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    background: #ffffff;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+li span {
+    flex-grow: 1;
+    font-weight: 500;
+}
+
+.btn-editar {
+    background: #f39c12;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-eliminar {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
